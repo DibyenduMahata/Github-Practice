@@ -18,6 +18,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             GithubPracticeTheme {
             Text(text = "1234")
+            Text(text = "1234")
+            Text(text = "1234")
             }
         }
     }
