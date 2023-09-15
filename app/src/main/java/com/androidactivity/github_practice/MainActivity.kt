@@ -17,11 +17,11 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             GithubPracticeTheme {
-            Text(text = "1234")
-            Text(text = "1234")
-            Text(text = "1234")
-            Text(text = "1234")
-            Text(text = "1234")
+            Text(text = "1")
+            Text(text = "2")
+            Text(text = "3")
+            Text(text = "4")
+            Text(text = "5")
             }
         }
     }
