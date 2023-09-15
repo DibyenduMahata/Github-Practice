@@ -20,6 +20,8 @@ class MainActivity : ComponentActivity() {
             Text(text = "1234")
             Text(text = "1234")
             Text(text = "1234")
+            Text(text = "1234")
+            Text(text = "1234")
             }
         }
     }
