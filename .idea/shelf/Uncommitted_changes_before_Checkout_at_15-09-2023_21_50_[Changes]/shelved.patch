@@ -1,0 +1,20 @@
+Index: app/src/main/java/com/androidactivity/github_practice/MainActivity.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.androidactivity.github_practice\r\n\r\nimport android.os.Bundle\r\nimport androidx.activity.ComponentActivity\r\nimport androidx.activity.compose.setContent\r\nimport androidx.compose.foundation.layout.fillMaxSize\r\nimport androidx.compose.material3.MaterialTheme\r\nimport androidx.compose.material3.Surface\r\nimport androidx.compose.material3.Text\r\nimport androidx.compose.runtime.Composable\r\nimport androidx.compose.ui.Modifier\r\nimport androidx.compose.ui.tooling.preview.Preview\r\nimport com.androidactivity.github_practice.ui.theme.GithubPracticeTheme\r\n\r\nclass MainActivity : ComponentActivity() {\r\n    override fun onCreate(savedInstanceState: Bundle?) {\r\n        super.onCreate(savedInstanceState)\r\n        setContent {\r\n            GithubPracticeTheme {\r\n                // A surface container using the 'background' color from the theme\r\n                Surface(\r\n                    modifier = Modifier.fillMaxSize(),\r\n                    color = MaterialTheme.colorScheme.background\r\n                ) {\r\n                    Greeting(\"Android\")\r\n                }\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n@Composable\r\nfun Greeting(name: String, modifier: Modifier = Modifier) {\r\n    Text(\r\n        text = \"Hello $name!\",\r\n        modifier = modifier\r\n    )\r\n}\r\n\r\n@Preview(showBackground = true)\r\n@Composable\r\nfun GreetingPreview() {\r\n    GithubPracticeTheme {\r\n        Greeting(\"Android\")\r\n    }\r\n}\r\n\r\n// gg
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/androidactivity/github_practice/MainActivity.kt b/app/src/main/java/com/androidactivity/github_practice/MainActivity.kt
+--- a/app/src/main/java/com/androidactivity/github_practice/MainActivity.kt	(revision d1fde28dc06124357cefd3b891c019ff8935397b)
++++ b/app/src/main/java/com/androidactivity/github_practice/MainActivity.kt	(date 1694794808006)
+@@ -45,4 +45,8 @@
+     }
+ }
+ 
++// gg
++// gg
++// gg
++// gg
+ // gg
+\ No newline at end of file
