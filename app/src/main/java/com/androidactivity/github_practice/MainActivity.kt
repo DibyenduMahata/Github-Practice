@@ -17,7 +17,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             GithubPracticeTheme {
-
+            Text(text = "1234")
             }
         }
     }
